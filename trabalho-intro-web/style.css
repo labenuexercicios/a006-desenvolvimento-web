@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Roboto+Slab:wght@600;700&display=swap');
+
+body {
+  position: relative;
+  height: 95vh;
+  background-image: linear-gradient(to right, rgb(66, 66, 134), rgb(42, 42, 83));
+  font-family: 'Roboto Slab', serif;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 0.62rem;
+  text-transform: uppercase;
+  font-size: 4.68rem;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: animacao-texto 3s linear infinite alternate-reverse, entrada-texto 1.7s ease-in-out;
+  
+}
+
+button {
+  text-transform: uppercase;
+  font-size: 1.56rem;
+  font-weight: 900;
+  border: none;
+  border-radius: .93rem;
+  padding: 1.25rem 7.5rem;
+  letter-spacing: .62rem;
+  background-color: rgb(53, 53, 108);
+  color:  rgb(136, 136, 229);
+  box-shadow: .12rem .12rem .12rem .06rem rgba(0, 0, 0, 0.447);
+  animation: entrada-botao 1.7s ease-in-out;
+  cursor: pointer;
+  transition: .5s;
+
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: .37rem .37rem .18rem .06rem rgba(0, 0, 0, 0.447);
+}
+
+button:active {
+  box-shadow: .18rem .18rem .12rem .06rem rgba(0, 0, 0, 0.447);
+}
+
+@keyframes animacao-texto {
+  0% {
+    background-color: rgb(145, 145, 236);
+  }
+  25% {
+    background-color: rgb(94, 94, 184);
+  }
+  50% {
+    background-color: rgb(64, 64, 122);
+  }
+  75% {
+    background-color: rgb(46, 46, 98);
+  }
+
+  100% {
+    background-color: rgb(19, 19, 43);
+  }
+}
+
+
+@keyframes entrada-texto {
+  0% {
+    transform: translateX(-7.5rem);
+    opacity: 0;
+  }
+
+  80% {
+    transform: translateX(.62rem);
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes entrada-botao {
+  0% {
+    transform: translateX(7.5rem);
+    opacity: 0;
+  }
+
+  80% {
+    transform: translateX(-.62rem);
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
