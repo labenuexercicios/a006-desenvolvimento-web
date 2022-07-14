@@ -1,0 +1,11 @@
+body{
+    margin:0 auto;
+    padding:0;
+    background-color: blanchedalmond;
+}
+button{
+    color:red;
+    background-color:white;
+    padding: 1vh;
+    border-radius: 2vh;
+}
