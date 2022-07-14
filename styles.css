@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    
+    background-image: linear-gradient(to right, rgb(255, 0, 0) 10%, rgb(255, 107, 8), rgb(255, 0, 43));
+
+
+}
+
+
+body > h1 {
+    display: inline-block;
+    background-color: ;
+    margin: 0px;
+
+}
+
+button {
+    display: block;
+    background-color: rgb(206, 212, 114);
+}
+
+button:hover {
+      
+     background-color: rgb(46, 192, 46) ;
+
+}
