@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: blanchedalmond;
+    background-image: url(https://disneyplusbrasil.com.br/wp-content/uploads/2022/06/Doutor-Estranho-Stephen-Strange.jpg); 
+    background-size: cover;
+}
+h1{
+    background-color: black;
+    color:aliceblue;
+    width: fit-content;
+}
+button{
+    color:whitesmoke;
+    background-color:darkblue;
+    padding: 2vh;
+    margin:2vh;
+    border-radius: 2vh;
+}
